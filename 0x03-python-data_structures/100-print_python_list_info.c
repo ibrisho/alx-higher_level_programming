@@ -3,7 +3,7 @@
 #include <Python.h>
 
 /**
- * print_python_list_info - Function that prints basic info about python objects
+ * print_python_list_info - prints basic info about python objects
  * @p: PyObject
  */
 
