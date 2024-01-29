@@ -55,7 +55,7 @@ def initiate_nqueens():
             formatted.append([x, y])
         print(formatted)
 
-        
+
 if __name__ == '__main__':
     """MAIN APP"""
     initiate_nqueens()
