@@ -42,7 +42,7 @@ def check_edge_cases():
     if n < 4:
         print('N must be at least 4')
         sys.exit(1)
-    return(n)
+    return (n)
 
 
 def initiate_nqueens():
@@ -55,6 +55,7 @@ def initiate_nqueens():
             formatted.append([x, y])
         print(formatted)
 
+        
 if __name__ == '__main__':
     """MAIN APP"""
     initiate_nqueens()
