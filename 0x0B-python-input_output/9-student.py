@@ -15,5 +15,5 @@ class Student():
         try:
             obj_dict = self.__dict__
             return obj_dict
-        except:
+        except Exception:
             return {}
