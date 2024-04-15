@@ -3,6 +3,10 @@
 # Usage: ./11-model_state_insert.py <mysql username> /
 #                                   <mysql password> /
 #                                   <database name>
+
+"""
+11-model_state_insert.py
+"""
 import sys
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
